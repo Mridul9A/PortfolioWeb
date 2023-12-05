@@ -152,9 +152,9 @@
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
 
-            <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+            <p><i class="fa-solid fa-paper-plane"></i> mridul0990@gmail.com</p>
 
-            <p><i class="fa-solid fa-phone"></i> 9797979898</p>
+            <p><i class="fa-solid fa-phone"></i> 8709165107</p>
 
             <div class="social-icon">
               <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -205,20 +205,20 @@
       let tabcontents = document.querySelectorAll(".tab-contents");
 
       function opentab(event, tabname) {
-          // Remove the 'active-link' class from all tab links
+
           tablinks.forEach(tablink => tablink.classList.remove("active-link"));
 
-          // Remove the 'active-tab' class from all tab contents
+
           tabcontents.forEach(tabcontent => tabcontent.classList.remove("active-tab"));
 
-          // Add the 'active-link' class to the clicked tab link
+
           event.currentTarget.classList.add("active-link");
 
-          // Add the 'active-tab' class to the corresponding tab content
+
           document.getElementById(tabname).classList.add("active-tab");
       }
 
-      // Attach click event listeners to all tab links
+
       tablinks.forEach(tablink => {
           tablink.addEventListener("click", function (event) {
               let tabname = this.getAttribute("data-tabname");
