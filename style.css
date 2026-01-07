@@ -377,6 +377,25 @@ nav .fa-solid {
   display: none;
 }
 
+/* ----------------- Desktop App --------------------------- */
+#desktop-app {
+  padding: 80px 0;
+}
+
+.download-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.download-list .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(Images/phone-background.png);
