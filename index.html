@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Mridul || Portfolio</title>
-    <script src="https://kit.fontawesome.com/f7e620d028.js" crossorigin="anonymous"></script>
+    <title>Mridul | Fullstack Developer</title>
+    <script
+      src="https://kit.fontawesome.com/f7e620d028.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
 
-    <!-- ----------------------nav----------------------------- -->
-    <div id="header">
+  <body>
+    <!-- ====================== HEADER ====================== -->
+    <header id="header">
       <div class="container">
         <nav>
-          <img src="Images/logo.png" alt="logo" />
+          <img src="Images/logo.png" alt="Mridul Logo" class="logo" />
+
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -23,32 +27,34 @@
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
           </ul>
+
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
 
         <div class="header-text">
           <p>Fullstack Developer</p>
           <h1>
-            Hi, I'm <span>Mridul</span>, working as a
-            <span>Fullstack Developer</span>.
+            Hi, I’m <span>Mridul</span><br />
+            building <span>web & desktop applications</span>
           </h1>
         </div>
       </div>
-    </div>
+    </header>
 
-    <!-- ----------------------About------------------------- -->
-    <div id="about">
+    <!-- ====================== ABOUT ====================== -->
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="Images/user.png" alt="about-img" />
+            <img src="Images/user.png" alt="Mridul profile" />
           </div>
+
           <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              BIT Mesra CSE Alumnus | Fullstack Developer |
-              React, Redux, JavaScript, C++, MySQL, ASP.NET Core |
-              Passionate about building real-world products.
+            <h2 class="sub-title">About Me</h2>
+            <p class="about-text">
+              BIT Mesra CSE alumnus and Fullstack Developer with hands-on
+              experience in building scalable web and desktop applications using
+              React, Redux Toolkit, JavaScript, and Tauri.
             </p>
 
             <div class="tab-titles">
@@ -59,106 +65,136 @@
 
             <div class="tab-contents active-tab" id="skills">
               <ul>
-                <li><span>Web</span><br>React, Redux, JavaScript</li>
-                <li><span>Desktop</span><br>Tauri + Electron</li>
-                <li><span>AI/ML</span><br>Applied ML Projects</li>
+                <li><span>Web</span><br />React, Redux, JavaScript</li>
+                <li><span>Desktop</span><br />Tauri, Electron</li>
+                <li><span>Backend</span><br />ASP.NET Core, MySQL</li>
               </ul>
             </div>
 
             <div class="tab-contents" id="experience">
               <ul>
-                <li><span>2023-Present</span><br>Frontend Developer</li>
+                <li>
+                  <span>2023 – Present</span><br />
+                  Frontend Developer
+                </li>
               </ul>
             </div>
 
             <div class="tab-contents" id="education">
               <ul>
-                <li><span>2022</span><br>B.Tech – BIT Mesra</li>
+                <li>
+                  <span>2022</span><br />
+                  B.Tech – Birla Institute of Technology, Mesra
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- ----------------------Portfolio------------------------- -->
-    <div id="portfolio">
+    <!-- ====================== PORTFOLIO ====================== -->
+    <section id="portfolio">
       <div class="container">
-        <h1 class="sub-title">My Work</h1>
+        <h2 class="sub-title">My Work</h2>
+
         <div class="work-list">
           <div class="work">
-            <img src="Images/work-1.png" />
+            <img src="Images/work-1.png" alt="Project screenshot" />
             <div class="layer">
               <h3>Company Website</h3>
+              <p>Production-ready business website</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- ----------------------Desktop App------------------------- -->
-    <div id="desktop-app">
+    <!-- ====================== DESKTOP APP ====================== -->
+    <section id="desktop-app">
       <div class="container">
-        <h1 class="sub-title">Desktop App</h1>
+        <h2 class="sub-title">Desktop Application</h2>
 
-        <p style="color:#ababab; margin-top:20px;">
-          Cross-platform Todo desktop app built with
-          <strong>React, Redux Toolkit & Tauri</strong>.
+        <p class="section-desc">
+          A cross-platform Todo desktop application built with
+          <strong>React, Redux Toolkit, and Tauri</strong>.
         </p>
 
         <div class="download-list">
-          <a href="downloads/mac/aTodo-0.1.0-macOS.dmg" class="btn btn2" download>
+          <a
+            href="downloads/mac/aTodo-0.1.0-macOS.dmg"
+            class="btn btn2"
+            download
+          >
             <i class="fa-brands fa-apple"></i> macOS
           </a>
 
-          <a href="downloads/windows/aTodo-0.1.0-windows.exe" class="btn btn2" download>
+          <a
+            href="downloads/windows/aTodo-0.1.0-windows.exe"
+            class="btn btn2"
+            download
+          >
             <i class="fa-brands fa-windows"></i> Windows
           </a>
 
-          <a href="downloads/linux/aTodo-0.1.0-linux.AppImage" class="btn btn2" download>
+          <a
+            href="downloads/linux/aTodo-0.1.0-linux.AppImage"
+            class="btn btn2"
+            download
+          >
             <i class="fa-brands fa-linux"></i> Linux
           </a>
         </div>
 
-        <p style="font-size:12px; color:#888; margin-top:20px;">
-          macOS users: Right-click → Open (first time only).
+        <p class="note">
+          macOS users: Right-click the app → Open (first launch only).
         </p>
       </div>
-    </div>
+    </section>
 
-    <!-- ----------------------Contact------------------------- -->
-    <div id="contact">
+    <!-- ====================== CONTACT ====================== -->
+    <section id="contact">
       <div class="container">
-        <h1 class="sub-title">Contact Me</h1>
+        <h2 class="sub-title">Contact</h2>
         <p><i class="fa-solid fa-paper-plane"></i> mridul0990@gmail.com</p>
         <p><i class="fa-solid fa-phone"></i> 8709165107</p>
       </div>
-    </div>
+    </section>
 
-    <!-- ----------------------Footer------------------------- -->
+    <!-- ====================== FOOTER ====================== -->
     <footer>
       <div class="copyright">
-        <p>© Mridul 2026</p>
+        <p>© 2026 Mridul. All rights reserved.</p>
       </div>
     </footer>
 
-    <!-- ----------------------Scripts------------------------- -->
+    <!-- ====================== SCRIPTS ====================== -->
     <script>
-      let sidemenu = document.getElementById("sidemenu");
-      function openmenu() { sidemenu.style.right = "0"; }
-      function closemenu() { sidemenu.style.right = "-200px"; }
+      const sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
 
     <script>
-      document.querySelectorAll(".tab-links").forEach(link => {
-        link.onclick = function () {
-          document.querySelectorAll(".tab-links").forEach(l => l.classList.remove("active-link"));
-          document.querySelectorAll(".tab-contents").forEach(c => c.classList.remove("active-tab"));
+      document.querySelectorAll(".tab-links").forEach((link) => {
+        link.addEventListener("click", function () {
+          document
+            .querySelectorAll(".tab-links")
+            .forEach((l) => l.classList.remove("active-link"));
+          document
+            .querySelectorAll(".tab-contents")
+            .forEach((c) => c.classList.remove("active-tab"));
+
           this.classList.add("active-link");
-          document.getElementById(this.dataset.tabname).classList.add("active-tab");
-        };
+          document
+            .getElementById(this.dataset.tabname)
+            .classList.add("active-tab");
+        });
       });
     </script>
-
   </body>
 </html>
