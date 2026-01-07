@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/f7e620d028.js" crossorigin="anonymous"></script>
   </head>
   <body>
+
     <!-- ----------------------nav----------------------------- -->
     <div id="header">
       <div class="container">
@@ -18,6 +19,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#desktop-app">Desktop App</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
           </ul>
@@ -27,13 +29,14 @@
         <div class="header-text">
           <p>Fullstack Developer</p>
           <h1>
-            Hi, I'm <span>Mridul</span>, I'm working <br />as
-            <span>Fullstack developer </span>.
+            Hi, I'm <span>Mridul</span>, working as a
+            <span>Fullstack Developer</span>.
           </h1>
         </div>
       </div>
     </div>
-    <!-- ----------------------about us------------------------- -->
+
+    <!-- ----------------------About------------------------- -->
     <div id="about">
       <div class="container">
         <div class="row">
@@ -43,68 +46,39 @@
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              Birla Institute Of Technology Mesra Computer Science Engineering Alumnus | Former Fullstack Developer, Now Elevating Frontend Brilliance | Adept in Crafting Engaging Web Experiences with Expertise in Responsive Design, UI/UX, and Mastery of JavaScript, C++, MySQL, ReactJS, CSS, and ASP.Net Core Frameworks | Committed to Delivering Web Solutions that Inspire and Innovate 🌟 #FrontendDeveloper #WebDesign"
-
-              <div class="tab-titles">
-                 <div class="tab-titles">
-                  <p class="tab-links active-link" data-tabname="skills">Skills</p>
-                  <p class="tab-links" data-tabname="experience">Experience</p>
-                  <p class="tab-links" data-tabname="education">Education</p>
-              </div>
-              
-
-              </div>
-              <div class="tab-contents active-tab" id="skills">
-                <ul>
-                     <li><span>Web Developer</span><br>Web app developer</li>
-                     <li><span>App Developer</span><br>Building Andorid/iOS apps</li>
-                     <li><span>AI / ML</span><br>Devlopment based on AI / ML</li>
-                </ul>
-              </div>
-              <div class="tab-contents" id="experience">
-                <ul>
-                     <li><span>Aug,2023 - Present</span><br>Frontend developer at Chaperone Plants</li>
-                     <li><span>Jan,2023 - July,2023</span><br>Fullstack Developer at Dewiride Technology</li>
-                </ul>
-              </div>
-
-              <div class="tab-contents" id="education">
-                <ul>
-                     <li><span>2022</span><br>B.TECH from Birla Institute of Technology, Mesra</li>
-                </ul>
-              </div>
+              BIT Mesra CSE Alumnus | Fullstack Developer |
+              React, Redux, JavaScript, C++, MySQL, ASP.NET Core |
+              Passionate about building real-world products.
             </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" data-tabname="skills">Skills</p>
+              <p class="tab-links" data-tabname="experience">Experience</p>
+              <p class="tab-links" data-tabname="education">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web</span><br>React, Redux, JavaScript</li>
+                <li><span>Desktop</span><br>Tauri + Electron</li>
+                <li><span>AI/ML</span><br>Applied ML Projects</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023-Present</span><br>Frontend Developer</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022</span><br>B.Tech – BIT Mesra</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- ----------------------Services------------------------- -->
-    <div class="services">
-       <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Web Development</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam vitae itaque esse natus reiciendis sapiente obcaecati neque velit ipsa. Placeat nihil quia consequuntur iste, earum voluptates ex, quod, magnam officia fugiat delectus officiis facere.</p>
-            <a href="#">Learn more</a>
-          </div>
-
-          <div>
-            <i class="fa-brands fa-app-store"></i>
-            <h2>App Development</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam vitae itaque esse natus reiciendis sapiente obcaecati neque velit ipsa. Placeat nihil quia consequuntur iste, earum voluptates ex, quod, magnam officia fugiat delectus officiis facere.</p>
-            <a href="#">Learn more</a>
-          </div>
-
-          <div>
-            <i class="fa-solid fa-crop"></i>
-            <h2>AI / ML Development</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam vitae itaque esse natus reiciendis sapiente obcaecati neque velit ipsa. Placeat nihil quia consequuntur iste, earum voluptates ex, quod, magnam officia fugiat delectus officiis facere.</p>
-            <a href="#">Learn more</a>
-          </div>
-        </div>
-       </div>
     </div>
 
     <!-- ----------------------Portfolio------------------------- -->
@@ -112,141 +86,79 @@
       <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
-
           <div class="work">
-            <img src="Images/work-1.png" alt="work1">
+            <img src="Images/work-1.png" />
             <div class="layer">
-              <h3>Chaperone Website</h3>
-              <p>This website I have create for my company.</p>
-              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <h3>Company Website</h3>
             </div>
           </div>
-
-          <div class="work">
-            <img src="Images/work-2.png" alt="work2">
-            <div class="layer">
-            <h3>Kyptogram</h3>
-            <p>It is a ethereum based crypto-excange app, where user can buy/sell there ether crypto-currency. And it also provide live exchange rate.</p>
-            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-          </div>
-
-          <div class="work">
-            <img src="Images/work-3.png" alt="work3">
-            <div class="layer">
-              <h3>Hospital Management System</h3>
-              <p>This website I have built during my 3rd internship project. In this website hospital can manage there data through website.</p>
-              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            </div>
-          </div> 
         </div>
-        <a href="#" class="btn">See More</a>
       </div>
     </div>
 
+    <!-- ----------------------Desktop App------------------------- -->
+    <div id="desktop-app">
+      <div class="container">
+        <h1 class="sub-title">Desktop App</h1>
+
+        <p style="color:#ababab; margin-top:20px;">
+          Cross-platform Todo desktop app built with
+          <strong>React, Redux Toolkit & Tauri</strong>.
+        </p>
+
+        <div class="download-list">
+          <a href="downloads/mac/aTodo-0.1.0-macOS.dmg" class="btn btn2" download>
+            <i class="fa-brands fa-apple"></i> macOS
+          </a>
+
+          <a href="downloads/windows/aTodo-0.1.0-windows.exe" class="btn btn2" download>
+            <i class="fa-brands fa-windows"></i> Windows
+          </a>
+
+          <a href="downloads/linux/aTodo-0.1.0-linux.AppImage" class="btn btn2" download>
+            <i class="fa-brands fa-linux"></i> Linux
+          </a>
+        </div>
+
+        <p style="font-size:12px; color:#888; margin-top:20px;">
+          macOS users: Right-click → Open (first time only).
+        </p>
+      </div>
+    </div>
 
     <!-- ----------------------Contact------------------------- -->
     <div id="contact">
       <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-
-            <p><i class="fa-solid fa-paper-plane"></i> mridul0990@gmail.com</p>
-
-            <p><i class="fa-solid fa-phone"></i> 8709165107</p>
-
-            <div class="social-icon">
-              <a href="https://www.linkedin.com/in/mridul09/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/Mridul9A" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://github.com/Advithmridul" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-
-            <a href="Images/MridulResume (1).pdf" download class="btn btn2" target="_blank">Download Resume</a>
-          </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required>
-
-              <input type="email" name="Email" placeholder="Your email" required>
-
-              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-
-              <button type="submit" class="btn btn2 btn3">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
-        </div>
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> mridul0990@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 8709165107</p>
       </div>
     </div>
 
     <!-- ----------------------Footer------------------------- -->
     <footer>
       <div class="copyright">
-        <p>copyright &copy Mridul 2023. Made with <i class="fa-solid fa-heart"></i></p>
+        <p>© Mridul 2026</p>
       </div>
     </footer>
 
-    <script>let sidemenu = document.getElementById("sidemenu");
+    <!-- ----------------------Scripts------------------------- -->
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+      function openmenu() { sidemenu.style.right = "0"; }
+      function closemenu() { sidemenu.style.right = "-200px"; }
+    </script>
 
-      function openmenu() {
-          sidemenu.style.right = "0";
-      }
-      
-      function closemenu() {
-          sidemenu.style.right = "-200px";
-      }
-      </script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-      let tablinks = document.querySelectorAll(".tab-links");
-      let tabcontents = document.querySelectorAll(".tab-contents");
-
-      function opentab(event, tabname) {
-
-          tablinks.forEach(tablink => tablink.classList.remove("active-link"));
-
-
-          tabcontents.forEach(tabcontent => tabcontent.classList.remove("active-tab"));
-
-
-          event.currentTarget.classList.add("active-link");
-
-
-          document.getElementById(tabname).classList.add("active-tab");
-      }
-
-
-      tablinks.forEach(tablink => {
-          tablink.addEventListener("click", function (event) {
-              let tabname = this.getAttribute("data-tabname");
-              opentab(event, tabname);
-          });
+    <script>
+      document.querySelectorAll(".tab-links").forEach(link => {
+        link.onclick = function () {
+          document.querySelectorAll(".tab-links").forEach(l => l.classList.remove("active-link"));
+          document.querySelectorAll(".tab-contents").forEach(c => c.classList.remove("active-tab"));
+          this.classList.add("active-link");
+          document.getElementById(this.dataset.tabname).classList.add("active-tab");
+        };
       });
-  });
-</script>
+    </script>
 
-
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbz5Xhgd19-w9qBzTrP040LwjzmWS71u7_b-1apeMKWtLFZuQIpPyLJXp1IgzuthxsY_1Q/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg");
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML = "Message sent successfully";
-        setTimeout(function(){
-          msg.innerHTML = ""
-        },5000)
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-     
   </body>
 </html>
